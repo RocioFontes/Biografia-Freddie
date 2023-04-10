@@ -1,3 +1,25 @@
-ol>h2{
-    background-color: blue;
+body{
+    background-color:mistyrose;
+}
+h1{
+    color:rgb(216, 79, 79);
+    text-decoration: underline;
+    text-align: center;
+    font-family: Georgia;
+}
+header>h2{
+    text-align: left;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+img{
+    text-align: center;
+    width: 42%;
+}
+.video{
+    text-align: center;
 }
