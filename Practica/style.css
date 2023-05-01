@@ -1,0 +1,52 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(226, 43, 89);
+    border: 5px dotted rgba(163, 20, 220, 0.945);
+    font-family:'Times New Roman';
+    font-size: 40px;
+}
+
+nav{
+    text-align: right;
+    background-color: rgb(206, 78, 185);
+}
+
+a:hover{
+    color: rgb(0, 255, 55);
+    background-color: rgb(238, 144, 144);
+}
+
+.textoamarillo {
+    text-align:center;
+    color: goldenrod;
+}
+
+
+article{
+    text-align: center;
+}
+
+.linksmejorados{
+    color: darkgreen;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+#final{
+    color: brown;
+}
+
+fieldset{
+    width: 99,5%;
+    border: 5px solid rgb(255, 60, 0);
+}
+
+.tamañoimg{
+    height: 470px;
+}
