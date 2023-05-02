@@ -1,20 +1,23 @@
 *{
     padding: 0%;
     margin: 0%;
+    background-color:bisque
 }
 
 header{
     text-align: center;
-    text-decoration: underline;
-    color: rgb(226, 43, 89);
+    text-decoration: underline; color: crimson;
     border: 5px dotted rgba(163, 20, 220, 0.945);
-    font-family:'Times New Roman';
-    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px 10px 10px 10px;
+    padding: 25px;
+    /*position: fixed;*/
 }
 
 nav{
     text-align: right;
-    background-color: rgb(206, 78, 185);
 }
 
 a:hover{
@@ -47,6 +50,13 @@ fieldset{
     border: 5px solid rgb(255, 60, 0);
 }
 
-.tamañoimg{
+.imgcuadrada{
     height: 470px;
 }
+
+.imgredonda{
+    height: 470px;
+    border-radius: 40%;
+}
+
+
