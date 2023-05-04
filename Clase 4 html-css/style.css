@@ -40,8 +40,39 @@ nav>a{
 article{
     border: 5px solid rgb(214, 70, 70);
 }
+
 section{
     border: 5px solid rgb(214, 70, 70);
+    width: 18%;
+}
+
+.Imgestrenos{
+    float: right;
+    width: 700px;
+    margin-top: -230px;
+    margin-right: 250px;
+}
+
+.Imgestrenos:hover{
+    opacity: 70%;
+}
+
+footer{
+    text-align: center;
+    border: 5px solid rgb(214, 70, 70);
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 19px;
+}
+
+footer>a{
+    text-decoration: none;
+    margin: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+footer>a:hover{
+    color: black;
+    background-color: #cf556c;
 }
 
 /*Pagina Contacto*/
