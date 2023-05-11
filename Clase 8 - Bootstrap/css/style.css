@@ -17,14 +17,18 @@ body{
     font-weight: bold;
 }
 
-.carousel-inner{
-    max-height: 35rem;
+#carouselExampleAutoplaying{
+    width: 600px;
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     #introduccion{
         width: 90% !important;
         }
+}*/ 
+
+#introduccion{
+    margin-top: 0;
 }
 
 /*header{

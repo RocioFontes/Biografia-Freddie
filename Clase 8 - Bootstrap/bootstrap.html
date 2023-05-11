@@ -43,7 +43,7 @@
             <a class="nav-link active" aria-current="page" href="bootstrap.html">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Más modelos</a>
+            <a class="nav-link" href="MasModelos.html">Modelos más vendidos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Envíos</a>
@@ -56,46 +56,43 @@
       </div>
     </div>
   </nav>
-<br>
+  <br>
 
   <!--CARRUSEL DE IMÁGENES-->
-  <div id="carouselExampleIndicators" class="carousel slide">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
+  <div class="d-flex p-5 pt-3">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/slide1.jpg" class="d-block w-100" alt="slide1">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/slide2.jpg" class="d-block w-100" alt="slide2">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/slide3.jpg" class="d-block w-100" alt="slide3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="3000">
-        <img src="https://photos.prnewswire.com/prnfull/20150227/178430LOGO" class="mh-100" style="width: 400px; height: 100px; alt="Zapatillas con flores">
-      </div>
-      <div class="carousel-item" data-bs-interval="3000">
-        <img src="./img/marrones.jpg" class="d-block w-100" alt="Zapatillas marrones">
-      </div>
-      <div class="carousel-item" data-bs-interval="3000">
-        <img src="./img/negras.jpg" class="d-block w-100" alt="Zapatillas negras">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-      data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-      data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
 
-  <!--INTRODUCCIÓN-->
-  <section class="w-50 mx-auto text-center pt-5" id="introduccion">
-    <h1 class="p-3 fs-2 border-top border-3">Sé quien quieras ser con las zapatillas<span class="text-success"> Converse</span></h1>
-    <p class="p-3 fs-5">Converse Rubber Shoe Company fue creado por Marquis Mills Converse en 1908 en Malden Massachusetts. En 1917, la compañía creo el primer calzado llamado All Star compuesto únicamente de caucho y lona. En su concepción fue diseñado para ser un calzado de élite en la liga profesional de baloncesto.<span></span></p>
-  </section>
+    <!--INTRODUCCIÓN-->
+    <section class="w-50 mx-auto text-center pt-5" id="introduccion">
+      <h1 class="p-3 fs-1 pt-5">Sé quien quieras ser con las zapatillas <span
+          class="text-success border-bottom border-3 border-success-subtle">Converse</span></h1>
+      <p class="p-3 fs-4 pt-5 text-center">Converse Rubber Shoe Company fue creado por Marquis Mills Converse en 1908 en
+        Malden Massachusetts. En 1917, la compañía creo el primer calzado llamado All Star compuesto únicamente de
+        caucho y lona. En su concepción fue diseñado para ser un calzado de élite en la liga profesional de
+        baloncesto.<span></span></p>
+    </section>
 </body>
 
 </html>
